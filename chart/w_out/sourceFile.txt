@@ -1,0 +1,8 @@
+
+E:\02work\git\AndroidTest\chart\src\com\example\chart\GraphView.java
+E:\02work\git\AndroidTest\chart\src\com\example\chart\MetricUtil.java
+E:\02work\git\AndroidTest\chart\src\com\example\chart\MyActivity.java
+E:\02work\git\AndroidTest\chart\src\com\example\chart\ScaleView.java
+E:\02work\git\AndroidTest\chart\gen\com\example\chart\BuildConfig.java
+E:\02work\git\AndroidTest\chart\gen\com\example\chart\Manifest.java
+E:\02work\git\AndroidTest\chart\gen\com\example\chart\R.java
