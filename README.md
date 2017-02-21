@@ -14,6 +14,8 @@
 
 ###头部收缩listview (项目 HeaderListView)
 ![alt text](https://coding.net/u/yijun/p/android-view/git/blob/master/pic/image_list_view.gif)
+###仿微信下拉刷新listview (项目 HeaderListView)
+![alt text](https://coding.net/u/yijun/p/android-view/git/blob/master/pic/wx.gif)
 
 ###曲线图 (项目 chart)
 ![alt text](https://coding.net/u/yijun/p/android-view/git/blob/master/pic/k_char.gif)
