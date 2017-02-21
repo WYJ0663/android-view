@@ -14,23 +14,23 @@ import android.widget.ListView;
 /**
  * Created by WYJ on 2017/2/20.
  */
-public class HeaderListView extends ListView {
+public class QQHeaderListView extends ListView {
     private ImageView headerView;
     private LinearLayout.LayoutParams headerParams;
 
     private int initHeight = 200;
 
-    public HeaderListView(Context context) {
+    public QQHeaderListView(Context context) {
         super(context);
         init();
     }
 
-    public HeaderListView(Context context, AttributeSet attrs) {
+    public QQHeaderListView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public HeaderListView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public QQHeaderListView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }

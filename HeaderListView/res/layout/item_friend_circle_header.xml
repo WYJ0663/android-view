@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:background="#000000">
+
+
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:background="#ffffff"
+            android:paddingBottom="20dp"
+            android:layout_alignParentBottom="true">
+
+        <ImageView
+                android:id="@+id/wall_image"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/wall"
+                android:scaleType="centerCrop"/>
+
+
+        <TextView
+                android:id="@+id/signature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一个好人"
+                android:textColor="#A9A9A9"
+                android:textSize="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"/>
+
+
+        <ImageView
+                android:id="@+id/head_image"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:src="@drawable/z4"
+                android:background="#ffffff"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="40dp"/>
+
+        <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xiao神"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:layout_toLeftOf="@+id/head_image"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="80dp"/>
+    </RelativeLayout>
+
+    <ImageView
+            android:id="@+id/loading"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/loading"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
